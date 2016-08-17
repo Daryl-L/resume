@@ -6,6 +6,7 @@
 body {
     height: 100%;
     background: rgba(193, 191, 196, 0.59);
+    font-family: "Kaiti SC";
 }
 
 .container {
@@ -19,7 +20,7 @@ body {
 
 .left {
     float: left;
-    background: #007fe2;
+    background: #e9c800;
     height: 100%;
     width: 25%;
     padding: 5%;
@@ -34,7 +35,7 @@ body {
     box-shadow: 2px 0px 5px #505050 inset;
 }
 
-.info {
+.avater {
     width: 100px;
     height: 100px;
     margin: 0 auto;
@@ -42,11 +43,23 @@ body {
     border-radius: 50px;
 }
 
-.info img {
+.avater img {
     width: 100%;
     height: 100%;
 }
 
 .info {
+    margin: 10px auto;
+    color: #fff;
+}
 
+.name {
+    width: 3em;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.motto {
+    width: 11.5em;
+    margin: 0 auto;
 }
