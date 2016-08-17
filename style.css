@@ -22,8 +22,8 @@ body {
     float: left;
     background: #e9c800;
     height: 100%;
-    width: 25%;
-    padding: 5%;
+    width: 31%;
+    padding: 2%;
     box-shadow: -21px -2px 5px #505050;
 }
 
@@ -62,4 +62,34 @@ body {
 .motto {
     width: 11.5em;
     margin: 0 auto;
+}
+
+.contact {
+    margin: 30px auto;
+    width: 100%;
+    color: #fff;
+    border: 1px dashed #a8a7a7;
+}
+
+.contact ul {
+    margin-left: 10%;
+}
+
+.contact h3 {
+    color: #e9a200;
+}
+
+.contact ul li {
+    list-style: none;
+}
+
+.contact ul li span {
+    margin-left: 10px;
+}
+
+.contact ul li span a:hover,
+.contact ul li span a:visited,
+.contact ul li span a:link {
+    color: #fff;
+    text-decoration: none;
 }
