@@ -64,32 +64,57 @@ body {
     margin: 0 auto;
 }
 
-.contact {
+.about {
     margin: 30px auto;
     width: 100%;
     color: #fff;
     border: 1px dashed #a8a7a7;
 }
 
-.contact ul {
+.about ul {
     margin-left: 10%;
 }
 
-.contact h3 {
+.about h3 {
     color: #e9a200;
 }
 
-.contact ul li {
+.about ul li {
     list-style: none;
 }
 
-.contact ul li span {
+.about ul li span {
     margin-left: 10px;
 }
 
-.contact ul li span a:hover,
-.contact ul li span a:visited,
-.contact ul li span a:link {
+.about ul li span a:hover,
+.about ul li span a:visited,
+.about ul li span a:link {
     color: #fff;
     text-decoration: none;
+}
+
+.skill {
+    padding-right: 10px;
+}
+
+.skill-title {
+    color: #54a600;
+}
+
+.skill-value {
+    float: right;
+    background: #fffafe;
+    margin: 2px auto;
+    width: 60%;
+    height: 18px;
+    display: inline-block;
+    border-radius: 9px;
+    opacity: 0.5;
+}
+
+.skill-persent {
+    background: #c5495d;
+    height: 18px;
+    border-radius: 9px;
 }
