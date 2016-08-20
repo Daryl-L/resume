@@ -68,7 +68,7 @@ body {
     margin: 30px auto;
     width: 100%;
     color: #fff;
-    border: 1px dashed #a8a7a7;
+    border: 1px dashed #f4645f;
 }
 
 .about ul {
@@ -84,7 +84,7 @@ body {
 }
 
 .about ul li span {
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .about ul li span a:hover,
@@ -117,4 +117,8 @@ body {
     background: #c5495d;
     height: 18px;
     border-radius: 9px;
+}
+
+.self-introduce {
+    text-indent: 2em;
 }
